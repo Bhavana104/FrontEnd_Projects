@@ -1,0 +1,72 @@
+.page {
+  background-color: #f8f8f8;
+  display: flex;
+  justify-content: center;
+  min-height: 100svh;
+  padding: 40px;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  width: 340px;
+}
+
+.flexContainer {
+  align-items: center;
+  display: flex;
+  gap: 16px;
+  justify-content: center;
+}
+
+.logoContainer {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 16px;
+}
+
+.instructionContainer {
+  background-color: #141414;
+  border-radius: 8px;
+  border-width: 1px;
+}
+
+.header {
+  color: #f8f8f8;
+  font-size: 24px;
+  font-weight: bold;
+  margin: 16px;
+  text-align: center;
+}
+
+.body {
+  color: #f8f8f8;
+  font-size: 16px;
+  margin: 16px;
+}
+
+.disclaimerContainer {
+  background-color: #e2e2e2;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  padding: 16px;
+  text-align: center;
+}
+
+.disclaimer {
+  color: #333333;
+  font-size: 12px;
+}
+
+.link {
+  color: #3080f0;
+  font-size: 16px;
+  text-decoration: underline;
+}
+
+.button {
+  padding: 4px 8px;
+}
